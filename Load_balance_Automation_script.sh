@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Configuration
-export configuration_loadbalance.sh
+# Export Configuration
+export configuration.env
 ROUND_ROBIN=true
 
 
