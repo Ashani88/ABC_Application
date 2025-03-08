@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Export Configuration
-export configuration.env
+source configuration.env
 ROUND_ROBIN=true
 
 
