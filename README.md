@@ -25,6 +25,9 @@ On Server ‘172.147.1.24’, ‘172.16.11.3’ and ‘172.18.1.17’:
 
 
 
+
+
+
 //Weekly Performance Summary Report:
 
 Step 1: Login to the Linux server with user who has relevant access. 
@@ -41,6 +44,12 @@ Step 4: Create the cron job to schedule the vmstat_script.sh script in each serv
 •	Add the following line to schedule the script to run every Mondays at Midnight:
 
   0 0 * * 1 /emea/SRC/bin/vmstat_script.sh
+
+
+
+
+
+
 
 
 // Email Alters for any performance related incidents:
